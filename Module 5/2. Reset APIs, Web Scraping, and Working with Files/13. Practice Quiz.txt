@@ -1,0 +1,56 @@
+1.
+Question 1
+
+What is the function of "GET" in HTTP requests?
+
+Sends data to create or update a resource 
+
+Returns the response from the client to the requestor
+
+Deletes a specific resource
+
+Carries the request to the client from the requestor
+Status: [object Object]
+1 point
+2.
+Question 2
+
+What does URL stand for?
+
+Uniform Request Location
+
+Uniform Resource Learning
+
+Uniform Resource Locator
+
+Unilateral Resistance Locator
+Status: [object Object]
+1 point
+3.
+Question 3
+
+What does the file extension “csv” stand for?
+
+Comma Serrated Values 
+
+Comma Separated Values
+
+Comma Separation Valuations 
+
+Common Separated Variables
+Status: [object Object]
+1 point
+4.
+Question 4
+
+What is webscraping?
+
+The process to describe communication options
+
+The process to request and retrieve information from a client
+
+The process to extract data from a particular website
+
+The process to display all data within a URL
+Status: [object Object]
+1 point
