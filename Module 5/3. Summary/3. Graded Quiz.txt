@@ -1,0 +1,68 @@
+1.
+Question 1
+
+What are the three parts of a response message?
+
+Encoding, body, and cache
+
+Bookmarks, history, and security
+
+Start or status line, header, and body
+
+HTTP headers, blank line, and body
+Status: [object Object]
+1 point
+2.
+Question 2
+
+What does the line of code "table_row = table.find_all(name='tr')" do in web scraping?
+
+It locates all the data within the table marked with a tag “p”
+
+It locates all the data within the table marked with a tag “a”
+
+It locates all the data within the table marked with a tag “h1”
+
+It locates all the data within the table marked with a tag “tr”
+Status: [object Object]
+1 point
+3.
+Question 3
+
+What data structure do HTTP responses typically use for their return?
+
+Nested lists
+
+JSON
+
+Lists
+
+Tuples
+Status: [object Object]
+1 point
+4.
+Question 4
+
+Complete the sentence. The Python library we used to plot the graphs is______.
+
+Plotly
+
+PyCoinGecko
+
+Pandas
+
+matplotlib
+Status: [object Object]
+1 point
+5.
+Question 5
+
+What is the role of ‘td’ tag in HTML files?
+
+Table caption
+
+Table row
+
+Table description
+
+Table cell data

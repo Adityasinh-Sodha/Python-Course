@@ -1,0 +1,39 @@
+What does API stand for?
+
+Application Programming Interaction
+
+Application Programming Interface
+
+Application Process Interface
+
+Automatic Program Interaction
+Status: [object Object]
+1 point
+2.
+Question 2
+
+ Which data format is commonly found in the HTTP message for API requests? 
+
+XML
+
+HTML
+
+YAML
+
+JSON
+Status: [object Object]
+1 point
+3.
+Question 3
+
+ What is the primary purpose of an API? 
+
+To provide security to web applications. 
+
+To handle server-side database operations. 
+
+To design user interfaces for mobile applications. 
+
+To connect and enable communication between software applications. 
+Status: [object Object]
+1 point
