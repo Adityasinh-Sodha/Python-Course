@@ -1,0 +1,69 @@
+Question 1
+
+What Python object do you cast to a data frame?
+
+Dictionary
+
+List
+
+set
+
+tuple 
+Status: [object Object]
+1 point
+2.
+Question 2
+
+How would you access the first row and first column in the DataFrame df?
+
+df.ix[1,1] 
+
+df.ix[1,0] 
+
+df.ix[0,0] 
+
+df.ix[0,1]
+Status: [object Object]
+1 point
+3.
+Question 3
+
+What is the proper way to load a CSV file using pandas?
+
+pandas.read_csv(‘data.csv’)
+
+pandas.load_csv(‘data.csv’)
+
+pandas.from_csv(‘data.csv’)
+
+pandas.import_csv(‘data.csv’)
+Status: [object Object]
+1 point
+4.
+Question 4
+
+Assume that you have a data frame containing details of various musical artists, their famous albums, their genres, and various other parameters. Here, `Genre` is the fifth column in the sequence and there is an entry of “Disco” in the 7th row of the data. How would you select the Genre disco?
+
+df.iloc[6, ‘genre’]
+
+df.iloc[7, ‘Genre’]
+
+df.iloc[6, 4]
+
+df.iloc[7, 5]
+Status: [object Object]
+1 point
+5.
+Question 5
+
+Assume that you have a data frame containing details of various musical artists, their famous albums, their genres, and various other parameters. Here, `Album` is the second column. How do we retrieve records from row 3 through row 6? 
+
+df.loc[2:5, ‘Album’]
+
+df.iloc[2:6, 3]
+
+df.loc[2, ‘Album’]
+
+df.loc[2:5, 1]
+Status: [object Object]
+1 point
