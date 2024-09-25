@@ -1,0 +1,53 @@
+What are the most commonly used modes when opening a file?
+
+(a)ppend, (c)lose, (w)rite
+
+(s)ave, (r)ead, (w)rite
+
+(a)ppend, (r)ead, (w)rite
+
+(a)ppend, (r)edline, (w)rite
+Status: [object Object]
+1 point
+2.
+Question 2
+
+Which data attribute retrieves the file's title?
+
+file1.name
+
+file1.close()
+
+file1.open()
+
+file1.mode
+Status: [object Object]
+1 point
+3.
+Question 3
+
+Which command instructs Python to initiate a new line?
+
+\b
+
+\n
+
+\q
+
+\e
+Status: [object Object]
+1 point
+4.
+Question 4
+
+Which attribute facilitates the input of data into a file?
+
+file1.open()
+
+file1.read()
+
+file1.write()
+
+file1.close()
+Status: [object Object]
+1 point
