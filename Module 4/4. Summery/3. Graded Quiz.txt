@@ -1,0 +1,203 @@
+1.
+Question 1
+
+What result will the following lines of code give?
+
+a=np.array([0,1]) 
+
+b=np.array([1,0]) 
+
+np.dot(a,b) 
+
+array([1,1])
+
+1
+
+array([[0, 0], [0, 0]])
+
+0
+Status: [object Object]
+1 point
+2.
+Question 2
+
+What does the value of Z become after executing the following code?
+
+X=np.array([[1,0],[0,1]]) 
+
+Y=np.array([[0,1],[1,0]]) 
+
+Z=X+Y 
+
+array([[1,1],[1,1]])
+
+array([[0, 0], [0, 0]])
+
+array([[0,1],[1,1]])
+
+array([[1,0],[0,1]])
+Status: [object Object]
+1 point
+3.
+Question 3
+
+If you run the following lines of code, what values will the variable 'out' take?
+
+X=np.array([[1,0,1],[2,2,2]]) 
+
+out=X[0:2,2]
+
+array([0,2])
+
+array([1,0])
+
+array([1,1])
+
+array([1,2])
+Status: [object Object]
+1 point
+4.
+Question 4
+
+After executing the given code, what value does Z hold?
+
+X=np.array([[1,0],[0,1]]) 
+
+Y=np.array([[2,1],[1,2]]) 
+
+Z=np.dot(X,Y) 
+
+array([[3,1],[1,3] ])
+
+array([[1,0],[0,1]])
+
+array([[2,0],[1,0]])
+
+array([[2,1],[1,2] ])
+Status: [object Object]
+1 point
+5.
+Question 5
+
+Consider the following text file: Example1.txt:
+
+This is line 1
+
+This is line 2
+
+This is line 3
+
+What is the output of the following lines of code?
+
+with open("Example1.txt","r") as file1: 
+
+     file_stuff=file1.readline() 
+
+print(file_stuff) 
+
+Syntax error
+
+This is line 1
+
+This is line 2
+
+This is line 3
+
+This is line 1
+
+This is line 1
+
+This is line 2
+Status: [object Object]
+1 point
+6.
+Question 6
+
+What do the following lines of code do?
+
+with open("Example1.txt","r") as file1: 
+
+      FileContent=file1.read() 
+
+print(FileContent) 
+
+Write to the file "Example1.txt"
+
+Append the file "Example1.txt"
+
+Read the file "Example1.txt"
+
+Convert the contents of the file to a binary format
+Status: [object Object]
+1 point
+7.
+Question 7
+
+What do the following lines of code do?
+
+with open("Example.txt","w") as writefile: 
+
+     writefile.write("This is line A\n") 
+
+  writefile.write("This is line B\n")
+
+Read the file "Example.txt"
+
+Write to the file "Example.txt"
+
+Append the file "Example.txt"
+
+Create a binary file "Example.txt"
+Status: [object Object]
+1 point
+8.
+Question 8
+
+What task do the following lines of code accomplish?
+
+with open('Example2.txt','r') as readfile: 
+
+    with open('Example3.txt','w') as writefile: 
+
+        for line in readfile: 
+
+            writefile.write(line) 
+
+Checking the mode of the open function for each file object
+
+Copying the text from Example2.txt to Example3.txt
+
+Reading the content of Example2.txt
+
+Printing out the content of Example2.txt
+Status: [object Object]
+1 point
+9.
+Question 9
+
+Given the dataframe df, how can you retrieve the element in the second row and first column?
+
+df.iloc[1,0]
+
+df.iloc[2,0]
+
+df.iloc[1,3]
+
+df.iloc[3,1]
+Status: [object Object]
+1 point
+10.
+Question 10
+
+What function would you use to load a CSV file in Pandas?
+
+pd.read_csv(path)
+
+pd.read_excel(path)
+
+np.read_csv(path)
+
+pd.load_csv(path)
+Status: [object Object]
+1 point
+

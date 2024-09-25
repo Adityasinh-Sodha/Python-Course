@@ -1,0 +1,41 @@
+Question 1
+
+What Python library serves as a foundation for Pandas and is used for scientific computing?
+
+Requests
+
+OS
+
+Numpy
+
+datetime
+Status: [object Object]
+1 point
+2.
+Question 2
+
+What attribute retrieves the number of elements in a numpy array?
+
+a.shape
+
+a.ndim
+
+a.dtype
+
+a.size
+Status: [object Object]
+1 point
+3.
+Question 3
+
+How would you change the first element to 10 in this array?  c = np.array([100,1,2,3,0])
+
+c[0]=10
+
+c[1]=10
+
+c[4]=10
+
+c[2]=10
+Status: [object Object]
+1 point
