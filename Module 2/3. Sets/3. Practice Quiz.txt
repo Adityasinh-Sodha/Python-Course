@@ -1,0 +1,42 @@
+1.
+Question 1
+
+Consider the following set: {"A","A"}, what will the result be when you create the set? 
+
+{"A"} 
+
+{"A", "B"}
+
+{"A", "A"}
+
+{}
+Status: [object Object]
+1 point
+2.
+Question 2
+
+What method do you use to add an element to a set?
+
+Insert
+
+Append
+
+Extend
+
+Add
+Status: [object Object]
+1 point
+3.
+Question 3
+
+What is the result of the following operation?  {'a','b'} &{'a'}
+
+{'a'}
+
+{'b'}
+
+{}
+
+{'a','b'}
+Status: [object Object]
+1 point

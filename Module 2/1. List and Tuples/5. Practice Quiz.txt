@@ -1,0 +1,76 @@
+1.
+Question 1
+
+Consider the following tuple:
+
+say_what=('say','what','you','will') 
+
+What is the result of the following? say_what[-1]
+
+'what!'
+
+say_what '
+
+'will'
+
+'you!'
+Status: [object Object]
+1 point
+2.
+Question 2
+
+Consider the following tuple A=(1,2,3,4,5). What is the outcome of the following? A[1:4] 
+
+(2, 3, 4)
+
+(3, 4,5)
+
+(1, 2, 3, 4)
+
+(2, 3, 4,5)
+Status: [object Object]
+1 point
+3.
+Question 3
+
+Consider the following list B=[1,2,[3,'a'],[4,'b']]. 
+
+What is the result of B[3][1]?
+
+[4, ‘b’]
+
+‘b’
+
+‘a’
+
+2
+Status: [object Object]
+1 point
+4.
+Question 4
+
+What is the outcome of the following operation?
+
+[1,2,3] + [1,1,1]
+
+TypeError 
+
+[2, 3, 4]
+
+[1, 2, 3, 1, 1, 1]
+
+[1, 2, 3; 1, 1, 1]
+Status: [object Object]
+1 point
+5.
+Question 5
+
+After operating A.append([2,3,4,5]), what will be the length of the list A = [1]?
+
+2
+
+6
+
+10
+
+5 

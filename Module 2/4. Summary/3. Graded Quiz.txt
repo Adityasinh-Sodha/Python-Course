@@ -1,0 +1,147 @@
+1.
+Question 1
+
+Consider the tuple A=((11,12),[21,22]), which contains a tuple and list. What is the result of the following operation A[0][1]?
+
+22
+
+12
+
+21
+
+11
+Status: [object Object]
+1 point
+2.
+Question 2
+
+Consider the tuple A=((1),[2,3],[4]), that contains a tuple and list. What is the result of the following operation A[2]?
+
+[2,3]
+
+[4]
+
+3
+
+1
+Status: [object Object]
+1 point
+3.
+Question 3
+
+The method append does the following:
+
+Adds one element to a list
+
+Merges two lists
+
+Adds multiple elements to a list
+
+Creates a new list with an added element
+Status: [object Object]
+1 point
+4.
+Question 4
+
+Consider the following list: A=["hard rock",10,1.2]
+
+What will list A contain after the following command is run?  del(A[0])
+
+["hard rock",10,1.2]
+
+["hard rock",10]
+
+Syntax error
+
+[10,1.2]
+Status: [object Object]
+1 point
+5.
+Question 5
+
+If A is a list, what does the following syntax do?  B=A[:]
+
+List A gets converted to a set and is loaded to B
+
+B gets a transposed form of the list A
+
+Assigns list A to list B
+
+Creates a new reference variable B that points to a copy or clone of the original list A
+Status: [object Object]
+1 point
+6.
+Question 6
+
+What is the outcome of the following?  len(("disco",10,1.2, "hard rock",10))
+
+5
+
+7
+
+0
+
+6
+Status: [object Object]
+1 point
+7.
+Question 7
+
+Consider the following dictionary:
+
+{"The Bodyguard":"1992", "Saturday Night Fever":"1977"}
+
+Select the values.
+
+"1977"
+
+"1992"
+
+"The Bodyguard"
+
+"Saturday Night Fever"
+Status: [object Object]
+1 point
+8.
+Question 8
+
+The variable release_year_dict is a Python dictionary, what is the outcome of applying the following method?  release_year_dict.keys()
+
+Retrieves the keys of the dictionary
+
+Retrieves the entire contents of the dictionary
+
+Retrieves the values of the dictionary
+
+Changes the dictionary to a list
+Status: [object Object]
+1 point
+9.
+Question 9
+
+Consider the set: V={'1','2'}, what is the result of V.add('3')?
+
+{1,2,3}
+
+{'1','2','3'}
+
+Error 
+
+{'1','2'}
+Status: [object Object]
+1 point
+10.
+Question 10
+
+What is the outcome of the following?  '1' in {'1','2'} 
+
+1
+
+False
+
+0
+
+True
+Status: [object Object]
+1 point
+
