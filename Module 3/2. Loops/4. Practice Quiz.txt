@@ -1,0 +1,90 @@
+1.
+Question 1
+
+ What will be the result of the following?  
+ 
+      for x in range(0, 3):
+    print(x)
+    
+    
+  0
+
+ 1
+
+ 2
+
+ 3
+
+0
+
+ 1
+
+ 2
+
+0
+
+ 1
+
+1
+
+ 2
+
+ 3
+ 
+ 2.
+Question 2
+
+What is the output of the following:
+
+
+for x in ['A', 'B', 'C']:
+    print(x + 'A')
+    
+    
+    AA
+    BB
+    CC
+    
+    A
+    B
+    C
+    
+    AA
+    BA
+    CA
+    
+    A
+    B
+    C
+    A
+    
+    3.
+Question 3
+
+What is the output of the following?
+
+       for i, x in enumerate(['A', 'B', 'C']):
+    print(i, x)
+    
+    
+    AA
+    BB
+    CC
+    
+    A0
+    B1
+    C2
+    
+    0A
+    1B
+    2C
+    
+    O
+    1
+    2
+    
+
+   
+    
+    
+

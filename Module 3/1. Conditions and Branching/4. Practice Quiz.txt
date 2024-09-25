@@ -1,0 +1,54 @@
+1.
+Question 1
+
+What is the outcome of the following? 1=2
+
+SyntaxError: can’t assign to literal
+
+False
+
+True
+
+ValueError: invalid literal for int()
+Status: [object Object]
+1 point
+2.
+Question 2
+
+What is the output of the following code segment?
+
+i=6
+
+i<5
+
+True
+
+False
+Status: [object Object]
+1 point
+3.
+Question 3
+
+True or False. What is the output of the below code snippet?
+
+‘a’==‘A’  
+
+True
+
+False 
+Status: [object Object]
+1 point
+4.
+Question 4
+
+Which of the following best describes the purpose of ‘elif’ statement in a conditional structure?
+
+It describes a condition to test for if any one of the conditions has not been met.
+
+It defines the condition in case the preceding conditions in the if statement are not fulfilled.
+
+It describes the end of a conditional structure.
+
+It describes a condition to test if all other conditions have failed.
+Status: [object Object]
+1 point
