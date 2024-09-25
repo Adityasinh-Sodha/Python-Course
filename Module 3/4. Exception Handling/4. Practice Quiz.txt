@@ -1,0 +1,54 @@
+1.
+Question 1
+
+Why do we use exception handlers?
+
+To terminate a program
+
+To read a file
+
+To write a file
+
+To catch errors within a program
+Status: [object Object]
+1 point
+2.
+Question 2
+
+What is the purpose of a try…except statement?
+
+Executes only when a particular condition is true
+
+Executes the code block under a specific condition
+
+Catch and handle exceptions when an error occurs
+
+Crash a program when errors occur
+Status: [object Object]
+1 point
+3.
+Question 3
+
+Consider the following code:
+
+If the user enters the value of `b’ as 0, what is expected as the output?
+ 
+    a = 1
+try:
+    b = int(input("Please enter a number to divide a: "))
+    a = a / b
+    print("Success a =", a)
+except:
+    print("There was an error")
+
+ 
+
+
+Success a=1/0
+
+There was an error
+
+Success a=NaN
+
+ZeroDivisionError
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="2.%20Cheat%20Sheet_files/coursera-connect.css">
+  </head>
+  <body>
+    <script src="2.%20Cheat%20Sheet_files/coursera-widget-connect-v0.js"></script>
+    <script>
+      function initiateApp(configuration) {
+        let src = configuration.src+"?origin=www.coursera.org"
+        if(configuration.src !== "") {
+          let link_details = configuration.link_details
+          let link_text = configuration.link_text
+          let divElement = document.createElement('div');
+          divElement.innerHTML = "<h3>"+link_details+
+                                "<a href=\""+src+"\" target=\"_blank\">" +link_text+"</a></h3>"
+          document.body.appendChild(divElement);
+        }
+
+        
+        var frame = document.createElement('iframe')
+	      frame.setAttribute("src", src);
+        frame.setAttribute("width", "100%");
+        frame.setAttribute("frameborder", "0");
+        frame.setAttribute("style", "border: 0px; overflow:auto; display:block;");
+        document.body.appendChild(frame);
+        frame.setAttribute("height", document.firstElementChild.scrollHeight);
+
+        if(configuration.optional_instructions === "True") {
+
+          let optional_instructions_details = configuration.optional_instructions_details;
+          let optional_instructions_link_text = configuration.optional_instructions_link_text;
+          optional_instructions_link_url = configuration.optional_instructions_link_url;
+
+          let divElement = document.createElement('div')
+          divElement.innerHTML = "<h3>"+optional_instructions_details+
+                                "<a href=\""+optional_instructions_link_url+"\" target=\"_blank\">" +optional_instructions_link_text+"</a></h3>"
+          if(configuration.optional_instructions_pos === "top") {
+            document.body.insertBefore(divElement,frame);
+          } else {
+            document.body.appendChild(divElement);
+          }
+        }
+      }
+
+      courseraApi.callMethod({
+        type: "GET_SESSION_CONFIGURATION",
+        onSuccess: initiateApp,
+        onError: console.log
+      });
+    </script>
+  
+
+<div><h3>In case you are having issues viewing the lab instructions below or prefer to view the instructions in a new browser tab, <a href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0101EN-SkillsNetwork/labs/Exception_handling_Reading.md.html?origin=www.coursera.org" target="_blank">click here</a></h3></div><div><h3>You may also right-click on the link to download and view the file.<a href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0101EN-SkillsNetwork/labs/Module%203/Reading_Exception_handling.pdf" target="_blank">click here</a></h3></div><iframe src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0101EN-SkillsNetwork/labs/Exception_handling_Reading.md.html?origin=www.coursera.org" style="border: 0px; overflow:auto; display:block;" width="100%" height="500" frameborder="0"></iframe></body></html>
