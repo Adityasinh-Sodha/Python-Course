@@ -1,0 +1,147 @@
+1.
+Question 1
+
+Which of the following statements will create an object ‘C1’ for the class that uses radius as 4 and color as ‘yellow’?
+
+
+class Circle(object):
+    # Constructor
+    def __init__(self, radius=3, color='blue'):
+        self.radius = radius
+        self.color = color
+
+
+    # Method
+    def add_radius(self, r):
+        self.radius = self.radius + r
+        return self.radius
+        
+        
+        C1 = Circle(‘yellow’,4)
+
+C1 = Circle(4, ‘yellow’)
+
+C1.radius = Circle.radius(4)
+
+ C1.color = Circle.color(‘yellow’)
+
+C1 = Circle()
+Status: [object Object]
+1 point
+2.
+Question 2
+
+Consider the execution of the following lines of code.
+
+CircleObject = Circle()
+
+CircleObject.radius = 10
+
+What are the values of the radius and color attributes for the CircleObject after their execution?
+
+class Circle(object):
+    # Constructor
+    def __init__(self, radius=3, color='blue'):
+        self.radius = radius
+        self.color = color
+        
+    # Method
+    def add_radius(self, r):
+        self.radius = self.radius + r
+        return self.radius
+
+10, ‘blue’
+
+3, ‘red’
+
+3, ‘blue’
+
+10, ‘red’
+Status: [object Object]
+1 point
+3.
+Question 3
+
+What is the color attribute of the object V1?
+
+class Vehicle:
+    color = "white"
+
+
+    def __init__(self, max_speed, mileage):
+        self.max_speed = max_speed
+        self.mileage = mileage
+        self.seating_capacity = None
+
+
+    def assign_seating_capacity(self, seating_capacity):
+        self.seating_capacity = seating_capacity
+
+
+V1 = Vehicle(150, 25)
+
+Error in creation of object
+
+25
+
+‘white’
+
+150
+Status: [object Object]
+1 point
+4.
+Question 4
+
+Which of the following options would create an appropriate object that points to a red, 5-seater vehicle with a maximum speed of 200kmph and a mileage of 20kmpl?
+
+  class Vehicle:
+    color = "white"
+
+
+    def __init__(self, max_speed, mileage):
+        self.max_speed = max_speed
+        self.mileage = mileage
+        self.seating_capacity = None
+
+
+    def assign_seating_capacity(self, seating_capacity):
+        self.seating_capacity = seating_capacity
+
+
+V1 = Vehicle(150, 25)
+
+Car = Vehicle(200, 20)
+
+Car = Vehicle(200,20)
+
+  Car.color = ‘red’
+
+  Car.assign_seating_capacity(5)
+
+Car = Vehicle(200,20)
+
+  Car.color = ‘red’
+
+Car = Vehicle(200,20)
+
+  Car.assign_seating_capacity(5)
+Status: [object Object]
+1 point
+5.
+Question 5
+
+What is the value printed upon execution of the code shown below
+
+ class Graph():
+    def __init__(self, id):
+        self.id = id
+        self.id = 80
+
+
+val = Graph(200)
+print(val.id)
+
+ 80
+ 200
+ invalid syntax
+ 0

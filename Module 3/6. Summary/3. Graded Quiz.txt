@@ -1,0 +1,234 @@
+1.
+Question 1
+
+What is the output of the following code?
+
+   x = "Go" 
+if x == "Go": 
+    print('Go') 
+else: 
+    print('Stop') 
+print('Mike')
+
+Stop Mike
+
+Go Stop
+
+Mike
+
+Go Mike
+Status: [object Object]
+1 point
+2.
+Question 2
+
+Which of the following is the value of x after the following lines of code?
+
+x = 1 
+x = x > 5
+
+False
+
+True
+
+1
+
+0
+
+3.
+Question 3
+
+What is the result of the following few lines of code?
+x = 0 
+while x < 2: 
+    print(x) 
+    x = x + 1
+    
+    0
+
+ 1
+
+ 3
+
+ 4
+
+0
+
+ 1
+
+ 2
+
+ 0
+
+ 1
+
+The program will never leave the loop. 
+
+
+4.
+Question 4
+
+What is the result of running the following lines of code?
+
+
+ class Points(object): 
+    def __init__(self, x, y): 
+        self.x = x 
+        self.y = y 
+    def print_point(self): 
+        print('x=', self.x, ' y=', self.y) 
+
+
+p1 = Points(1, 2) 
+p1.print_point()
+
+  x=1; 
+
+x=y=
+
+y=2
+
+x=1 y=2
+Status: [object Object]
+1 point
+5.
+Question 5
+
+What is the output of the following few lines of code?
+for i, x in enumerate(['A', 'B', 'C']): 
+    print(i + 1, x)
+    
+    0 A
+
+1 B
+
+2 C
+
+1 AA
+
+2 BB
+
+3 CC
+
+0 AA
+
+1 BB
+
+2 CC
+
+1 A
+
+ 2 B
+
+ 3 C
+Status: [object Object]
+1 point
+6.
+Question 6
+
+What is the result of running the following lines of code?
+
+class Points(object): 
+    def __init__(self, x, y): 
+        self.x = x 
+        self.y = y 
+    def print_point(self): 
+        print('x=', self.x, ' y=', self.y) 
+
+
+p2 = Points(1, 2) 
+p2.x = 2 
+p2.print_point()
+ 
+ 
+ x= A y=2
+
+x=1 y=1
+
+x=1 y=2
+
+ x=2 y=2
+Status: [object Object]
+1 point
+7.
+Question 7
+
+Considering the function delta, when will the following function return a value of 1?
+
+def delta(x): 
+    if x == 0: 
+        y = 1 
+    else: 
+        y = 0 
+    return y
+    
+  Never
+
+When the input is 0
+
+When the input is 1
+
+When the input is anything but 0
+Status: [object Object]
+1 point
+8.
+Question 8
+
+What is the output of the following line of code?
+
+
+   a = 1 
+def do(x): 
+    a = 100 
+    return x + a 
+
+
+print(do(1))
+
+1
+
+102
+
+101
+
+2
+Status: [object Object]
+1 point
+9.
+Question 9
+
+Which three of the following functions will perform the addition of two numbers without any error? [Select three.]
+
+def add(a, b):
+
+    return(a+b)
+
+def add(a, b):
+
+ c = a+b
+
+ return(c)
+
+def add(a, b):
+
+      return(sum(a, b)
+
+def add(a, b):
+
+     return(sum((a, b)))
+Status: [object Object]
+1 point
+10.
+Question 10
+
+Why is it the best practice to have multiple except statements with each type of error labeled correctly?
+
+To determine the type of error thrown and its location within the program
+
+To skip specific sections of code during its execution
+
+Ensure catching the error for program termination
+
+It is not necessary to label errors
+
+
