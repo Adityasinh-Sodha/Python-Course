@@ -1,0 +1,38 @@
+1.
+Question 1
+
+What is the data type of the entity 43? 
+
+float
+
+complex
+
+int
+
+bool
+Status: [object Object]
+1 point
+2.
+Question 2
+
+What data type does 3.12323 represent?
+
+bool
+
+int
+
+str
+
+float
+Status: [object Object]
+1 point
+3.
+Question 3
+
+What is the result of the following: int(3.99)?
+
+3.99
+
+3
+
+4

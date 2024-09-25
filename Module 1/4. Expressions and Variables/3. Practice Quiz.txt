@@ -1,0 +1,46 @@
+1.
+Question 1
+
+What is the result of the operation: 11//2
+
+11/2
+
+5.5
+
+5
+
+0.18
+Status: [object Object]
+1 point
+2.
+Question 2
+
+What is the value of x after the following is run:
+
+x=4
+
+x=x/2
+
+0.5
+
+4.0
+
+2.0
+
+1.0
+Status: [object Object]
+1 point
+3.
+Question 3
+
+Which line of code will perform the action as required for implementing the following equation?
+
+y=2x2−3y=2x2−3
+
+y = 2x*x – 3 
+
+y = 2x^2 – 3 
+
+y = 2*x*x – 3 
+
+y = 2*x*2 – 3
